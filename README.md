@@ -1,12 +1,13 @@
 <h1>Steinford University</h1>
 A responsive university website.
 
+
 <h1>Pages</h1>
-Home<br><br>
-About<br><br>
-Course<br><br>
-Blog<br><br>
-Contact<br><br>
+Home<br>
+About<br>
+Course<br>
+Blog<br>
+Contact<br>
 
 
 <h1>License</h1>
