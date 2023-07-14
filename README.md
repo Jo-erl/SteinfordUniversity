@@ -1,4 +1,4 @@
-<h1>Graffique University</h1>
+<h1>Steinford University</h1>
 A responsive university website.
 
 <h1>Pages</h1>
