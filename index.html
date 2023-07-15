@@ -19,25 +19,28 @@
     <!--Header-->
     <section class="header">
         <nav class="navbar">
-            <div class="nav-container">
-            <a href="index.html"><img src="images/logo.png" class="nav-img" alt="Site_Logo"></a>
-            <div class="nav-links" id="navLinks">
+            <div class="container">
+              <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+              </div>
+              <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></l>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="course.html">Course</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
+          </nav>
 
 <div class="text-box">
-    <h1>World's Biggest University</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a href="" class="hero-btn">Register Today</a>
+    <h1 class="head-text">World's Biggest University
+    </h1>    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a class="hero-btn">Register Today</a>
 </div>
 </section>
 <!--End of Header-->
@@ -160,11 +163,9 @@
 <!--End of testimonials-->
 <hr class="divider">
 
-
-
 <!--Call to action-->
 <section class="cta">
-    <h1>Enroll In Our Various Online Courses<br> From Any Part of The World</h1>
+    <h1>Enroll In Our Various <br>Online Courses</h1>
     <a href="" class="hero-btn">CONTACT US</a>
 </section>
 <!--Call to action end-->
@@ -189,29 +190,30 @@
 <!--End of Footer-->
 
  <!-- Back-to-top button -->
- <a href="#" class="new-back-to-top hero-btn">Top</a>
+<a href="#" class="b2t hero-btn3">Top</a>
 
- <script>
-     // Back-to-top button functionality
-     var newBackToTopBtn = document.querySelector('.new-back-to-top');
+<script>
+  // Back-to-top button functionality
+  var b2tBtn = document.querySelector('.b2t');
 
-     window.addEventListener('scroll', function() {
-         if (window.pageYOffset > 300) {
-             newBackToTopBtn.style.display = 'block';
-         } else {
-             newBackToTopBtn.style.display = 'none';
-         }
-     });
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      b2tBtn.style.display = 'block';
+    } else {
+      b2tBtn.style.display = 'none';
+    }
+  });
 
-     newBackToTopBtn.addEventListener('click', function(e) {
-         e.preventDefault();
-         window.scrollTo({
-             top: 0,
-             behavior: 'smooth'
-         });
-     });
- </script>
+  b2tBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
 <!-- End of Back-to-top button -->
+
 
 
 <script>
