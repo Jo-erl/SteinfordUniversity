@@ -1,14 +1,6 @@
 <h1>Steinford University</h1>
 A responsive university website.
 
-
-<h1>Pages</h1>
-Home<br>
-About<br>
-Course<br>
-Blog<br>
-Contact<br>
+![1](https://github.com/Jo-erl/3dcarousel/assets/133300552/305d1e36-eb62-4ef8-9d96-d2f5f2fe9a6f)
 
 
-<h1>License</h1>
-This project is licensed under the MIT License. Feel free to modify and distribute the codebase for your own purposes. However, please be sure to include the original license file and attribute the author appropriately.
